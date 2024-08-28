@@ -14,7 +14,7 @@ const SimplifySection: React.FC = () => {
       content: (
         <p className="text-[22px] max-md:text-base">
           Social payments is never been so easy. Just type{" "}
-          <span className="text-[#34C759]">“send 0.005 ETH to...”</span> and
+          <span className="text-[#34C759]">{`“send 0.005 ETH to...”`}</span> and
           here we go
         </p>
       ),
@@ -24,9 +24,9 @@ const SimplifySection: React.FC = () => {
       content: (
         <p className="text-[22px] max-md:text-base">
           <span className="text-[#AF52DE]">
-            “Hey, let's stake 100 STRK on Nimbora"
+            {`“Hey, let's stake 100 STRK on Nimbora”`}
           </span>{" "}
-          and that's how you do staking
+          {`and that's how you do staking`}
         </p>
       ),
     },
@@ -39,7 +39,7 @@ const SimplifySection: React.FC = () => {
       content: (
         <p className="text-[22px] max-md:text-base">
           Wanna borrow from the top tier protocol on Starknet, type{" "}
-          <span className="text-[#007AFF]">“start zkLend app"</span>
+          <span className="text-[#007AFF]">{`“start zkLend app"`}</span>
         </p>
       ),
     },
@@ -52,7 +52,7 @@ const SimplifySection: React.FC = () => {
         <p className="text-[22px] max-md:text-base">
           Bulk transactions within single command. Type{" "}
           <span className="text-[#294BD9]">
-            “send 0.2 STRK to Mark and Ralph"
+            {`"send 0.2 STRK to Mark and Ralph"`}
           </span>
         </p>
       ),
@@ -62,7 +62,7 @@ const SimplifySection: React.FC = () => {
       content: (
         <p className="text-[22px] max-md:text-base">
           Wanna trade your favorite tokens with your entry?{" "}
-          <span className="text-[#EF2323]">“Notify BTC at $60,000”</span>
+          <span className="text-[#EF2323]">{"“Notify BTC at $60,000”"}</span>
         </p>
       ),
     },
@@ -70,8 +70,8 @@ const SimplifySection: React.FC = () => {
       logos: [{ src: "/assets/argentX.png" }, { src: "/assets/braavos.png" }],
       content: (
         <p className="text-[22px] max-md:text-base">
-          <span className="text-[#39B8E3]">“Export my portfolio”</span> and you
-          can start screening your digital assets
+          <span className="text-[#39B8E3]">{"“Export my portfolio”"}</span> and
+          you can start screening your digital assets
         </p>
       ),
     },
