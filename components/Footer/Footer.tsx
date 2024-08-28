@@ -95,7 +95,7 @@ const Footer = () => {
           {items.map((item, index) => {
             return (
               <div key={index} className="flex flex-col gap-2">
-                <p>{item.title}</p>
+                <p className="font-sf-pro-bold">{item.title}</p>
                 {item.subItems.map((subItem, subIndex) => {
                   return (
                     <p className="text-grays2 text-sm" key={subIndex}>

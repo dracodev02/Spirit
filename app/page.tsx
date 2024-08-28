@@ -1,7 +1,7 @@
-import IntroduceWallet from "./Home/IntroduceWallet";
-import SimplifyCommands from "./Home/SimplifyCommands";
-import SimplifySection from "./Home/SimplifyJourney";
-import WhatNext from "./Home/WhatNext";
+import IntroduceWallet from "../components/Home/IntroduceWallet";
+import SimplifyCommands from "../components/Home/SimplifyCommands";
+import SimplifySection from "../components/Home/SimplifyJourney";
+import WhatNext from "../components/Home/WhatNext";
 
 export default function Home() {
   return (

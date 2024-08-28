@@ -94,8 +94,8 @@ const WhatNext: React.FC = () => {
   return (
     <div className="pb-16">
       <p className="text-3xl px-4 md:pl-10">
-        <span className="text-[#AF52DE]">{`What's next? `}</span>{" "}
-        <span className="text-grays2">
+        <span className="text-[#AF52DE] font-sf-pro-bold">{`What's next? `}</span>{" "}
+        <span className="text-grays2 font-sf-pro-bold">
           Elevating user experience with innovations
         </span>
       </p>

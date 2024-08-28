@@ -79,10 +79,10 @@ const IntroduceWallet: React.FC = () => {
           className="w-fit mx-auto"
         />
         <div>
-          <p className="text-center text-[57px] max-md:text-[30px] leading-[70px] max-md:leading-[40px]">
+          <p className="text-center text-[57px] max-md:text-[30px] leading-[70px] max-md:leading-[40px] font-sf-pro-bold">
             Smart wallet, simple life.
           </p>
-          <p className="text-center text-[57px] max-md:text-[30px] leading-[70px] max-md:leading-[40px]">
+          <p className="text-center text-[57px] max-md:text-[30px] leading-[70px] max-md:leading-[40px] font-sf-pro-bold">
             Your financial world, simplified.
           </p>
         </div>
@@ -92,8 +92,10 @@ const IntroduceWallet: React.FC = () => {
       </div>
       <div className="mt-[172px] max-md:mt-[100px]">
         <p className="text-3xl px-4 md:pl-10">
-          <span className="text-primary">Connect. </span>{" "}
-          <span className="text-grays2">All StarkNet ecosystem to socials</span>
+          <span className="text-primary font-sf-pro-bold">Connect. </span>{" "}
+          <span className="text-grays2 font-sf-pro-bold">
+            All StarkNet ecosystem to socials
+          </span>
         </p>
         <div
           className="flex gap-4 mt-8 overflow-auto px-4 md:pl-10 cursor-grabbing"

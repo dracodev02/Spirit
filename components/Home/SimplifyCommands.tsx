@@ -15,7 +15,7 @@ const SimplifyCommands = () => {
       </div>
       <div className="flex max-w-desktop mx-auto justify-evenly pt-20 max-md:pt-10 max-md:flex-col px-4 gap-y-8">
         <div className="mt-10">
-          <p className="text-[57px] max-md:text-[30px] max-w-[600px]">
+          <p className="text-[57px] max-md:text-[30px] max-w-[600px] font-sf-pro-bold">
             Simplify Your Journey With Commands
           </p>
           <ul className="list-inside list-disc mt-4 text-2xl max-md:text-base">
