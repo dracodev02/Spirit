@@ -95,16 +95,48 @@ const IntroduceWallet: React.FC = () => {
           </span>
         </p>
         <div
-          className="flex gap-4 mt-8 overflow-auto px-4 md:pl-10 cursor-grabbing max-w-[1440px]"
+          className="flex gap-4 mt-8 overflow-auto px-4 md:px-10 cursor-grabbing max-w-[1440px]"
           ref={scrollRef}
         >
-          {items.map((item, index) => (
-            <ImageComp
-              key={index}
-              src={item.src}
-              className="min-w-[387px] max-md:min-w-[280px] pointer-events-none select-none flex-1"
-            />
-          ))}
+          <div className="rounded-[24px] px-6 py-8 bg-black min-w-[387px] max-md:min-w-[280px] flex flex-col justify-between gap-10 pointer-events-none select-none flex-1">
+            <div className="flex gap-y-2 flex-col ">
+              <p className="text-grays3 ">Wallet on Telegram</p>
+              <p className="font-sf-pro-bold text-white text-xl">
+                Account Abstraction
+              </p>
+              <p className="text-grays3">
+                Now StarkNet's users are able to experience the best
+                applications on Telegram like never before.
+              </p>
+            </div>
+            <ImageComp src="/assets/introduce_1.svg" className="w-full" />
+          </div>
+          <div className="rounded-[24px] px-6 py-8 bg-[#F2F2F7] min-w-[387px] max-md:min-w-[280px] flex flex-col justify-between gap-10 pointer-events-none select-none flex-1">
+            <div className="flex gap-y-2 flex-col ">
+              <p className="text-[#FF2D55]">Defi connection</p>
+              <p className="font-sf-pro-bold text-xl">
+                All Defi needs in one place
+              </p>
+              <p className="text-[#8E8E93]">
+                Lending, borrowing, swapping, everything related to Defi are all
+                here.
+              </p>
+            </div>
+            <ImageComp src="/assets/introduce_2.svg" className="w-full" />
+          </div>
+          <div className="rounded-[24px] px-6 py-8 bg-black min-w-[387px] max-md:min-w-[280px] flex flex-col justify-between gap-10 pointer-events-none select-none flex-1">
+            <div className="flex gap-y-2 flex-col ">
+              <p className="text-grays3 ">Digital collectibles</p>
+              <p className="font-sf-pro-bold text-white text-xl">
+                Trade. Bid. Transfer NFTs
+              </p>
+              <p className="text-grays3">
+                Never been so easy when trading your digital assets and managing
+                your porfolio.
+              </p>
+            </div>
+            <ImageComp src="/assets/introduce_3.svg" className="w-full" />
+          </div>
         </div>
       </div>
     </div>

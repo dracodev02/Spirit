@@ -15,7 +15,8 @@ const config: Config = {
       colors: {
         primary: "#007AFF",
         grays: "#1E1E1E",
-        grays2: "#AEAEB2"
+        grays2: "#AEAEB2",
+        grays3: "#C7C7CC"
       },
       fontFamily: {
         title: ['var(--font-audiowide)'],
