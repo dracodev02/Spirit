@@ -4,7 +4,7 @@ import logo_pririt_white from "@/public/assets/logo_spirit_white.svg";
 
 type FooterItem = {
   title: string;
-  subItems: { name: string; href: string }[];
+  subItems: { name: string; href: string; target: string }[];
 };
 
 const Footer = () => {
@@ -15,6 +15,7 @@ const Footer = () => {
         {
           name: "Connect Telegram",
           href: "#",
+          target: "_self",
         },
       ],
     },
@@ -24,18 +25,22 @@ const Footer = () => {
         {
           name: "Features",
           href: "#",
+          target: "_self",
         },
         {
           name: "Blog",
           href: "#",
+          target: "_self",
         },
         {
           name: "Account Abstraction",
           href: "#",
+          target: "_self",
         },
         {
           name: "Smart Contract Wallet",
           href: "#",
+          target: "_self",
         },
       ],
     },
@@ -45,22 +50,27 @@ const Footer = () => {
         {
           name: "FaQ",
           href: "#",
+          target: "_self",
         },
         {
           name: "Docs",
           href: "#",
+          target: "_self",
         },
         {
           name: "Media Kit",
           href: "#",
+          target: "_self",
         },
         {
           name: "Privacy Policy",
           href: "#",
+          target: "_self",
         },
         {
           name: "Terms of Use",
           href: "#",
+          target: "_self",
         },
       ],
     },
@@ -70,19 +80,23 @@ const Footer = () => {
         {
           name: "Website",
           href: "https://myspiritwallet.com",
+          target: "_blank",
         },
         {
           name: "X account",
           href: "https://x.com/Spirit_wallet",
+          target: "_blank",
         },
 
         {
           name: "Telegram",
           href: "https://t.me/spirit_wallet",
+          target: "_blank",
         },
         {
           name: "Docs",
           href: "https://docs.myspiritwallet.com",
+          target: "_blank",
         },
       ],
     },
@@ -105,7 +119,7 @@ const Footer = () => {
                   return (
                     <a
                       href={subItem.href}
-                      target="_blank"
+                      target={subItem.target}
                       className="text-grays2 text-sm cursor-pointer"
                       key={subIndex}
                     >
