@@ -4,12 +4,14 @@ type ButtonProps = {
   title: string;
   type?: "primary" | "outline";
   className?: string;
+  onClick?: () => void;
 };
 
 const Button: React.FC<ButtonProps> = ({
   title,
   type = "primary",
   className,
+  onClick,
 }) => {
   const classes = clsx(
     "py-1 px-4 rounded-[124px]",
@@ -21,7 +23,11 @@ const Button: React.FC<ButtonProps> = ({
     className
   );
 
-  return <button className={classes}>{title}</button>;
+  return (
+    <button onClick={onClick} className={classes}>
+      {title}
+    </button>
+  );
 };
 
 export default Button;

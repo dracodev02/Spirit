@@ -60,7 +60,12 @@ const Header = () => {
             })}
           </div>
           <div className="flex items-center gap-2">
-            <Button title="Open Telegram" />
+            <Button
+              onClick={() => {
+                window.open("https://t.me/spirit_wallet", "_blank");
+              }}
+              title="Open Telegram"
+            />
             <IoMenu
               onClick={() => toggleMenu((prev) => !prev)}
               className="hidden max-md:block text-2xl cursor-pointer"
