@@ -9,9 +9,6 @@ const IntroduceWallet: React.FC = () => {
     { src: "/assets/introduce_1.png" },
     { src: "/assets/introduce_2.png" },
     { src: "/assets/introduce_3.png" },
-    { src: "/assets/introduce_3.png" },
-    { src: "/assets/introduce_3.png" },
-    { src: "/assets/introduce_3.png" },
   ];
 
   const scrollRef = useRef<HTMLDivElement | null>(null);
@@ -98,14 +95,14 @@ const IntroduceWallet: React.FC = () => {
           </span>
         </p>
         <div
-          className="flex gap-4 mt-8 overflow-auto px-4 md:pl-10 cursor-grabbing"
+          className="flex gap-4 mt-8 overflow-auto px-4 md:pl-10 cursor-grabbing max-w-[1440px]"
           ref={scrollRef}
         >
           {items.map((item, index) => (
             <ImageComp
               key={index}
               src={item.src}
-              className="min-w-[387px] max-md:min-w-[280px] pointer-events-none select-none"
+              className="min-w-[387px] max-md:min-w-[280px] pointer-events-none select-none flex-1"
             />
           ))}
         </div>

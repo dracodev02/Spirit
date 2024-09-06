@@ -68,16 +68,21 @@ const Footer = () => {
       title: "Socials",
       subItems: [
         {
-          name: "X account",
-          href: "#",
+          name: "Website",
+          href: "https://myspiritwallet.com",
         },
         {
-          name: "Discord",
-          href: "#",
+          name: "X account",
+          href: "https://x.com/Spirit_wallet",
         },
+
         {
           name: "Telegram",
-          href: "#",
+          href: "https://t.me/spirit_wallet",
+        },
+        {
+          name: "Docs",
+          href: "https://docs.myspiritwallet.com",
         },
       ],
     },
@@ -98,9 +103,14 @@ const Footer = () => {
                 <p className="font-sf-pro-bold">{item.title}</p>
                 {item.subItems.map((subItem, subIndex) => {
                   return (
-                    <p className="text-grays2 text-sm" key={subIndex}>
+                    <a
+                      href={subItem.href}
+                      target="_blank"
+                      className="text-grays2 text-sm cursor-pointer"
+                      key={subIndex}
+                    >
                       {subItem.name}
-                    </p>
+                    </a>
                   );
                 })}
               </div>
