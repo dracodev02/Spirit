@@ -14,11 +14,12 @@ const Button: React.FC<ButtonProps> = ({
   onClick,
 }) => {
   const classes = clsx(
-    "py-1 px-4 rounded-[124px]",
+    "py-1 px-4 rounded-[124px] trasition-all duration-150",
     {
-      "bg-gradient-to-b from-[#040a24de] to-[#20379c] text-white":
+      "bg-gradient-to-b from-[#040a24de] to-[#20379c] text-white hover:opacity-90":
         type == "primary",
-      "border-2 border-primary": type == "outline",
+      "border-2 border-primary hover:shadow-md hover:shadow-primary/60":
+        type == "outline",
     },
     className
   );

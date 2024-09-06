@@ -120,7 +120,7 @@ const Footer = () => {
                     <a
                       href={subItem.href}
                       target={subItem.target}
-                      className="text-grays2 text-sm cursor-pointer"
+                      className="text-grays2 text-sm cursor-pointer hover:text-white transition-all "
                       key={subIndex}
                     >
                       {subItem.name}

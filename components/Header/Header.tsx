@@ -53,7 +53,10 @@ const Header = () => {
           <div className="flex gap-6 items-center max-md:hidden">
             {items.map((item, index) => {
               return (
-                <p key={index} className="text-grays/50">
+                <p
+                  key={index}
+                  className="text-grays/50 hover:text-black cursor-pointer transition-all"
+                >
                   {item.name}
                 </p>
               );
