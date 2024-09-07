@@ -87,7 +87,7 @@ const IntroduceWallet: React.FC = () => {
           Simplify and socialize the way you interact with digital assets.
         </p>
       </div>
-      <div className="mt-[172px] max-md:mt-[100px]">
+      <div className="mt-[172px] max-md:mt-[100px] max-w-desktop mx-auto">
         <p className="text-3xl px-4 md:pl-10">
           <span className="text-primary font-sf-pro-bold">Connect. </span>{" "}
           <span className="text-grays2 font-sf-pro-bold">
@@ -95,7 +95,7 @@ const IntroduceWallet: React.FC = () => {
           </span>
         </p>
         <div
-          className="flex gap-4 mt-8 overflow-auto px-4 md:px-10 cursor-grabbing max-w-[1440px]"
+          className="flex gap-4 mt-8 overflow-auto px-4 md:px-10 cursor-grabbing max-w-[1440px] mx-auto"
           ref={scrollRef}
         >
           <div className="rounded-[24px] px-6 py-8 bg-black min-w-[387px] max-md:min-w-[280px] flex flex-col justify-between gap-10 pointer-events-none select-none flex-1">
