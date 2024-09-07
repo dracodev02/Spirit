@@ -105,8 +105,8 @@ const IntroduceWallet: React.FC = () => {
                 Account Abstraction
               </p>
               <p className="text-grays3">
-                Now StarkNet's users are able to experience the best
-                applications on Telegram like never before.
+                {`Now StarkNet's users are able to experience the best
+                applications on Telegram like never before.`}
               </p>
             </div>
             <ImageComp src="/assets/introduce_1.svg" className="w-full" />
