@@ -108,7 +108,7 @@ const Footer = () => {
       <div className="max-w-desktop mx-auto flex justify-between py-20 items-start px-4 max-lg:flex-col gap-y-8">
         <div className="flex items-center gap-2">
           <ImageComp src={logo_pririt_white.src} className="w-[50px] h-auto" />
-          <p className="font-title">Pririt</p>
+          <p className="font-title text-3xl">Pririt</p>
         </div>
         <div className="flex gap-x-20 gap-y-8 max-lg:flex-col">
           {items.map((item, index) => {
